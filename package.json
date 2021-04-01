@@ -1,0 +1,19 @@
+{
+  "name": "no-node-modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "out/index.js",
+  "scripts": {
+    "start": "node .",
+    "build": "tsc",
+    "test:run": "npm run build && npm start"
+  },
+  "type": "module",
+  "author": "",
+  "license": "GPLv3",
+  "dependencies": {
+    "@octokit/rest": "^18.5.2",
+    "@types/node": "^14.14.37",
+    "dotenv": "^8.2.0"
+  }
+}
